@@ -1,0 +1,4 @@
+puppet
+======
+
+Test puppet manifests
