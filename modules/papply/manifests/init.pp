@@ -19,7 +19,7 @@ class papply {
     ensure  => present,
     user    => 'vagrant',
     command => '/usr/local/bin/pull-updates',
-    minute  => '*/10',
+    minute  => '*',
     hour    => '*',
   }
 }
