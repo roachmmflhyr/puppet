@@ -1,3 +1,3 @@
-node 'puppet', 'puppet2' {
+node 'puppet', 'puppet2', 'puppet3' {
   include papply
 }
