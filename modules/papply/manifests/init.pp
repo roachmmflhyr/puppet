@@ -6,7 +6,7 @@ class papply {
 
   file { '/usr/local/bin/pull-updates':
     source => 'puppet:///modules/papply/pull-updates.sh',
-    mode => '0755',
+    mode   => '0755',
   }
 
   file { '/home/vagrant/.ssh/id_rsa':
